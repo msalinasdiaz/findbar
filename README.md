@@ -24,3 +24,5 @@ Things you may want to cover:
 * trello https://trello.com/b/1EnupKb4/bar-finder 
 
 * github 
+
+* modelo https://www.draw.io/#G17d8QzSigQd6r7P0JOchkwO-s0H0FALbL  
