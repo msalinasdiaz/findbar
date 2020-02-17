@@ -33,6 +33,8 @@ ActiveRecord::Schema.define(version: 2020_02_17_142642) do
     t.string "name"
     t.date "birthday"
     t.bigint "pub_id"
+    t.string "gender"
+    t.boolean "older"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["pub_id"], name: "index_users_on_pub_id"
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true

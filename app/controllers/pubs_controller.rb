@@ -3,7 +3,7 @@ class PubsController < ApplicationController
   before_action :authenticate_user!, only: [:update, :destroy, :create]
 
   # GET /pubs
-  # GET /pubs.json
+  # GET /pubs.json  
   def index 
     @pubs = Pub.all
   end
