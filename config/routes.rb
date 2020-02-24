@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
   resources :pubs
-  devise_for :users, controllers: {registrations: 'users/registrations'}
+  devise_for :users, controllers: {
+    registrations: 'users/registrations',
+    sessions: 'users/sessions'
+  }
 
   get 'home/index'
   root 'pubs#index'
